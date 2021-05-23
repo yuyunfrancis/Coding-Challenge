@@ -1,6 +1,6 @@
 import React from "react";
 
-const Event = ({ events }) => {
+const Event = ({ events, event_details}) => {
   return (
     <>
       {events.map((ev) => {
@@ -12,7 +12,7 @@ const Event = ({ events }) => {
             <div className="col-md-6 p-3">
               <h2 className="title">{title}</h2>
               <p className="details">{details}</p>
-              <button>+ Event Details</button>
+              <button>+ {event_details}</button>
             </div>
             <div className="col-md-3 p-3 left">
               <h2 className="time">{time}</h2>

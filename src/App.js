@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="container my-5">
         <h1 className="my-2">Events</h1>
-        <Event events={data} />
+        <Event events={data} event_details = "Event Details" />
       </div>
     </>
   );
