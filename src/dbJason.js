@@ -1,4 +1,4 @@
-const data = [
+const dbJason = [
   {
     id: 1,
     title: "Sunday Super Club",
@@ -37,4 +37,4 @@ const data = [
   },
 ];
 
-export default data;
+export default dbJason;
