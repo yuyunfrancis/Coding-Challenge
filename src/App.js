@@ -2,7 +2,7 @@ import React from "react";
 import "./bootstrap.min.css";
 import "./App.css";
 import Event from "./components/Event";
-import data from "./dbJason";
+import dbJason from "./dbJason";
 
 function App() {
   return (
